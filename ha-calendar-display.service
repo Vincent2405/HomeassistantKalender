@@ -1,0 +1,15 @@
+[Unit]
+Description=HA Calendar Display - ILI9488
+After=network.target network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=vinc
+WorkingDirectory=/home/vinc/ha-calendar-display
+ExecStart=/usr/bin/python3 /home/vinc/ha-calendar-display/ha_calendar_display.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
