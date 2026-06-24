@@ -1,4 +1,4 @@
-# HomeassistentKalender
+# HomeassistantKalender
 
 Home-Assistant-Kalender auf einem ILI9488-TFT (480×320), betrieben an einem Raspberry Pi Zero 2 W.
 
